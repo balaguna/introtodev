@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title> Bala's First HTML Page </title>
+
+    <head>
+<style>
+    h1.bluetext {
+        color:blue;
+    }
+    h2.redtext {
+        color:red;
+    }
+
+    span.grey {
+        color: grey;
+    }
+</style>
+    </head>
+   
+<body>
+        <!-- internal styling with css in HEAD-->
+    <h1 class="bluetext">This is Bala's Blue Heading 1</h1>
+    <h2 class="redtext">This is Bala's Red Heading 2</h1>
+        <!-- in-line styling-->
+    <h2 style="color:green;">This is Bala's Green Heading 2</h1>
+        <!-- use span within tags to style just part of it, with internal CSS in this example-->
+        <h1>This font color is <span class="grey">Grey!</span></h1>
+
+        <!-- wont work cos src="test_iframe.html" is not there. must make a new html file in same folder as this for the iframe-->
+<iframe src="test_iframe.html" name="test_iframe">
+</iframe>
+
+<p><a href src="https://www.instagram.com/" target="test_iframe"></a>Instagram homepage</p>
+
+<!-- iframe linking to another file within folder that this is saved in-->
+
+ <iframe src="iframefor2ndhtml.html" name="test_iframe" style="width:; height:200px;">
+</iframe>
+
+<p><a href src="https://www.instagram.com/" target="test_iframe"></a>Instagram homepage</p>
+
+</body>
+    </html>
