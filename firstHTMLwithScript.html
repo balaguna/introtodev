@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML page with script</title>
+    </head>
+
+    <body>
+        <div id="div1">
+            Aloha, my fellow islanders!
+        </div>
+
+
+        <script>
+            alert("Mahalo, brothers and sisters!");
+            alert("InnerHTML for the div element with id div1 is = " + document.getElementById("div1").innerHTML);
+            document.getElementById("div1").innerHTML = "AHOY, MATEYS! WALK THE PLANK, YE LAND-DWELLERS! ARHHH!"
+        </script>
+
+<!-- sequentially, the pop-up Mahalo opens first, on-click it gos to the page with Aloha
+machine evaluated script first, before rendering rest of the page in sequence-->
+<!-- second alert shows Aloha -->
+<!-- AHOY MATEYS line changes content-->
+<!-- this html file is a document, browser is document viewer, HTML is document type-->
+
+<p> 99 is &lt; 100</p>
+<p> 10 is &gt; 9</p>
+
+<!-- to display symbols reserved by HTML, like < , > and &  ( &lt:, &gt; and &amp;) (&) -->
+    </body>
+    </html>
