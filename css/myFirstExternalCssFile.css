@@ -1,9 +1,9 @@
 input {
-    width: 100%;
-    padding: 50px 20px 10px 30px;
-    /*50 top 20 right 10 bottom 30 left*/
-    margin: 50px 0;
-    box-sizing: border-box;
-    border: 10px solid red;
-    border-radius: 25px;
-  }
+  width: 100%;
+  padding: 50px 20px 10px 30px;
+  /*50 top 20 right 10 bottom 30 left*/
+  margin: 50px 0;
+  box-sizing: border-box;
+  border: 10px solid red;
+  border-radius: 25px;
+}
