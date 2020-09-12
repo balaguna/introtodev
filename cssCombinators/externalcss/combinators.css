@@ -1,0 +1,29 @@
+/* divs within divs are manipulated ( parent-child) */
+div > div {
+    border: 5px solid green;
+    background-color: indianred;
+    padding:20px;
+}
+
+
+/* divs after paragraph P element are manipulated (adjacent sibling) */
+p + div {
+    border: 5px solid blue;
+    background-color: purple;
+    padding:20px;
+}
+
+div > p {
+    color:red;
+}
+
+
+#div1 > #div2 {
+    border:5px dotted maroon;
+}
+
+/* any element that falls inside an element, combinator is a spacing*/
+div div {
+    color: skyblue;
+    font-size: 50px;
+}

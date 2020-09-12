@@ -1,0 +1,19 @@
+div>[class*="box"]  {
+    border: 5px solid blue;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+div > div {
+    float:left;
+    width: 25%;
+}
+
+/*
+.box1 > .box1 {
+    float: left;
+    width: 25%;
+}
+*/
+
+
