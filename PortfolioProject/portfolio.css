@@ -1,28 +1,14 @@
 .grid1 {
-    display: grid;
-
+  display: grid;
   grid-template-columns: repeat(4, 400px);
   grid-template-rows: repeat(4, 350px);
   column-gap: 10px;
-  row-gap: 10px;
-
+  row-gap: 5px;
+  box-sizing: border-box;
   }
 
-  {
-    
-    box-sizing: border-box;
-  }
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+ 
   
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
   
   .col-1 {width: 9%;}
   .col-2 {width: 15%;}
@@ -37,8 +23,12 @@
   .col-11 {width: 90%;}
   .col-12 {width: 100%;}
   
-  html {
+  h1 {
     font-family: "Tahoma", sans-serif;
+  }
+
+  p {
+    font-family: "Times New Roman", serif;
   }
   
   .header {
@@ -48,9 +38,8 @@
   }
   
   .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 2px;
   }
   
   .menu li {
@@ -63,5 +52,6 @@
   
   .menu li:hover {
     background-color: lightseagreen;
+    border: 7px yellow dashed;
   }
 
