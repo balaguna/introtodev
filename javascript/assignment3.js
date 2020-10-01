@@ -1,4 +1,3 @@
-var arr1 = []
 
 function sumOf2 (arr1, arr2){
     var sum = new arrSum();
