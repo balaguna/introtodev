@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JS Assignment 4</h1>
+
+<p id="rides"></p>
+
+<script>
+function Car(type, brand, model) {
+  this.carType = type;
+  this.carBrand = brand;
+  this.carModel = model;
+}
+
+Car.prototype.vehicle = function() {
+  return this.carType + " called " + this.carModel + " by " + this.carBrand
+};
+
+var myCar = new Car("SUV", "Mercedes", "GLA");
+document.getElementById("rides").innerHTML =
+"The " + myCar.vehicle() + " has a twin-screw turbo.";
+
+var ourCar = new Car("hatchback", "Subaru", "Outback");
+document.getElementById("rides").innerHTML =
+"The " + ourCar.vehicle() + " has a boxer engine.";
+
+var yourCar = new Car("MPV", "Toyota", "Sienna");
+document.getElementById("rides").innerHTML =
+"The " + yourCar.vehicle() + " has 8-seats.";
+
+</script>
+
+</body>
+</html>
