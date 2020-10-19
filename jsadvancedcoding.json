@@ -1,0 +1,14 @@
+document.addEventListener("DOMcontentLoaded"),loadproduct();
+
+function loadproduct(){
+var http= new XMLHttpRequest();
+xhttp.onreadystatechange=
+function(){
+        if(this.readyState == 4 && this.staturs == 200) {
+            let product = JSON.parse(this.respondText);
+                console.log(product);
+                
+        }
+}
+}
+xhttp.open("Get", json",true); xhttp.send();
