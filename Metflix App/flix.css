@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+}
+
+header {
+    padding: 20px 15px 15px 20px;
+
+}
+
+.searchbox {
+    display: block;
+}
