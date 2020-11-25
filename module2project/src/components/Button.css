@@ -1,0 +1,39 @@
+:root {
+    --primary: lightgrey;
+}
+
+.btn {
+    padding: 10px 10px;
+    border: none;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: navy;
+    border: 2px solid green;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: black;
+    padding: 5px 15px;
+    border: 2px solid green;
+transition: all 0.5s ease-out;
+}
+
+.btn--medium {
+    padding: 10px 10px;
+font-size: 25px;
+}
+
+.btn--large{
+    padding: 15px 15px;
+    font-size: 35px;
+}
+
+.btn--medium:hover, .btn--large:hover {
+    background-color: darkgoldenrod;
+    color: darkgoldenrod;
+    transition: all 0.5s ease-out;
+
+}
